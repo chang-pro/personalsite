@@ -112,4 +112,4 @@ npm test              # Run Jest tests
 
 ## 📝 License
 
-[MIT](https://github.com/mldangelo/personal-site/blob/main/LICENSE)
+[MIT](https://github.com/mldangelo/personal-site/blob/main/LICENSE)# personalsite
