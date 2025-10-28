@@ -4,6 +4,7 @@
 @import 'libs/functions';
 @import 'libs/mixins';
 @import 'libs/skel';
+@import 'libs/dark-mode';
 
 // NOTE: This import was moved into index.html template
 // @import url('//fonts.googleapis.com/css?family=Source+Sans+Pro:400,700|Raleway:400,800,900');
@@ -50,6 +51,7 @@
 @import 'components/image';
 @import 'components/list';
 @import 'components/mini-post';
+@import 'components/nav-button';
 @import 'components/post';
 @import 'components/section';
 @import 'components/table';

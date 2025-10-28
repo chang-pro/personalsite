@@ -7,7 +7,7 @@ import PageWrapper from './components/PageWrapper';
 
 export const metadata: Metadata = {
   description:
-    "Michael D'Angelo is a data scientist, machine learning engineer, and full-stack engineer.",
+    'Dechante Chang is a Computer Science student, freelance developer, and full-stack engineer.',
 };
 
 export default function HomePage() {
@@ -20,21 +20,29 @@ export default function HomePage() {
               <Link href="/about">About this site</Link>
             </h2>
             <p>
-              A beautiful, responsive, statically-generated, react application written with modern
-              Javascript.
+              A personal portfolio website built with Next.js, TypeScript, and modern web
+              technologies.
             </p>
           </div>
         </header>
         <p>
-          {' '}
-          Welcome to my website. Please feel free to read more <Link href="/about">about me</Link>,
-          or you can check out my <Link href="/resume">resume</Link>,{' '}
-          <Link href="/projects">projects</Link>, view <Link href="/stats">site statistics</Link>,
-          or <Link href="/contact">contact</Link> me.
+          Welcome! I&apos;m Dechante Chang, a Computer Science student at the University of Central
+          Florida and a freelance full-stack developer. Feel free to explore more{' '}
+          <Link href="/about">about me</Link>, check out my <Link href="/resume">resume</Link>,
+          browse my <Link href="/projects">projects</Link>, view{' '}
+          <Link href="/stats">site statistics</Link>, or <Link href="/contact">contact</Link> me.
         </p>
-        <p>
-          {' '}
-          Source available <a href="https://github.com/mldangelo/personal-site">here</a>.
+        <p style={{ fontSize: '0.7em', color: '#999', marginTop: '2rem' }}>
+          <em>
+            Inspired by{' '}
+            <a
+              href="https://github.com/mldangelo/personal-site"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              mldangelo&apos;s personal site
+            </a>
+          </em>
         </p>
       </article>
     </PageWrapper>

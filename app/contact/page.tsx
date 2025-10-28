@@ -10,7 +10,7 @@ import PageWrapper from '../components/PageWrapper';
 
 export const metadata: Metadata = {
   title: 'Contact',
-  description: "Contact Michael D'Angelo via email @ hi@mldangelo.com",
+  description: 'Contact Dechante Chang via email @ de411916@ucf.edu',
 };
 
 export default function ContactPage() {
@@ -25,8 +25,32 @@ export default function ContactPage() {
           </div>
         </header>
         <div className="email-at">
-          <p>Feel free to get in touch. You can email me at:</p>
+          <p>Feel free to get in touch! You can email me at:</p>
           <EmailLink />
+          <div style={{ marginTop: '20px' }}>
+            <p>
+              <strong>For jobs and work opportunities:</strong> de411916@ucf.edu
+            </p>
+          </div>
+          <div style={{ marginTop: '20px' }}>
+            <p>Or download my resume:</p>
+            <a
+              href="https://drive.google.com/file/d/1sFqXpQ1rCmV40zyHyhWsZ1uPz4CRoSdl/view?usp=sharing"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{
+                display: 'inline-block',
+                padding: '10px 20px',
+                backgroundColor: '#007bff',
+                color: 'white',
+                textDecoration: 'none',
+                borderRadius: '5px',
+                marginTop: '10px',
+              }}
+            >
+              📄 Download Resume
+            </a>
+          </div>
         </div>
         <ContactIcons />
       </article>

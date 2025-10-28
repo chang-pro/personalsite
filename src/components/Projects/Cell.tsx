@@ -15,13 +15,25 @@ const Cell: React.FC<CellProps> = ({ data }) => (
     <article className="mini-post">
       <header>
         <h3>
-          <a href={data.link}>{data.title}</a>
+          {data.link ? (
+            <a href={data.link} target="_blank" rel="noopener noreferrer">
+              {data.title}
+            </a>
+          ) : (
+            data.title
+          )}
         </h3>
         <time className="published">{dayjs(data.date).format('MMMM, YYYY')}</time>
       </header>
-      <a href={data.link} className="image">
-        <Image src={data.image} alt={data.title} width={600} height={400} />
-      </a>
+      {data.link ? (
+        <a href={data.link} target="_blank" rel="noopener noreferrer" className="image">
+          <Image src={data.image} alt={data.title} width={600} height={400} />
+        </a>
+      ) : (
+        <div className="image">
+          <Image src={data.image} alt={data.title} width={600} height={400} />
+        </div>
+      )}
       <div className="description">
         <p>{data.desc}</p>
       </div>

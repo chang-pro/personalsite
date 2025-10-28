@@ -10,23 +10,7 @@ const validateText = (text: string): boolean => {
   return re.test(text) || text.length === 0;
 };
 
-const messages = [
-  'hi',
-  'hello',
-  'hola',
-  'you-can-email-me-at-literally-anything! Really',
-  'well, not anything. But most things',
-  'like-this',
-  'or-this',
-  'but not this :(  ',
-  'you.can.also.email.me.with.specific.topics.like',
-  'just-saying-hi',
-  'please-work-for-us',
-  'help',
-  'admin',
-  'or-I-really-like-your-website',
-  'thanks',
-];
+const messages = ['hi', 'hello', 'hola', 'dechante', 'contact', 'hello', 'thanks'];
 
 const useInterval = (callback: () => void, delay: number | null) => {
   const savedCallback = useRef<() => void>(callback);
@@ -90,9 +74,9 @@ const EmailLink: React.FC<EmailLinkProps> = ({ loopMessage = false }) => {
       onMouseEnter={() => setIsActive(false)}
       onMouseLeave={() => idx < messages.length && setIsActive(true)}
     >
-      <a href={validateText(message) ? `mailto:${message}@mldangelo.com` : ''}>
+      <a href={validateText(message) ? `mailto:${message}@dmchang.xyz` : ''}>
         <span>{message}</span>
-        <span>@mldangelo.com</span>
+        <span>@dmchang.xyz</span>
       </a>
     </div>
   );

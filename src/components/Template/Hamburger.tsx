@@ -5,6 +5,7 @@ import React, { Suspense, lazy, useState } from 'react';
 import Link from 'next/link';
 
 import routes from '../../data/routes';
+import MobileThemeToggle from './MobileThemeToggle';
 
 // @ts-expect-error - react-burger-menu doesn't have proper TypeScript definitions for lazy loading
 const Menu = lazy(() => import('react-burger-menu/lib/menus/slide'));
@@ -33,6 +34,9 @@ const Hamburger: React.FC = () => {
       </nav>
       <Suspense fallback={<></>}>
         <Menu right isOpen={open}>
+          <div className="mobile-menu-header">
+            <MobileThemeToggle />
+          </div>
           <ul className="hamburger-ul">
             {routes.map((l) => (
               <li key={l.label}>

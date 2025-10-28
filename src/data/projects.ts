@@ -9,47 +9,41 @@ export interface Project {
 
 const data: Project[] = [
   {
-    title: 'Nearest Dollar',
-    subtitle: '2015 BVP Hackathon',
-    image: '/images/projects/nearestdollar.jpg',
-    date: '2015-11-20',
-    desc:
-      'Built for a social impact hackathon. ' +
-      'NearestDollar connected to your bank accounts, credit cards, ' +
-      'or debit cards and rounded up your purchases to donate the balance to ' +
-      'the charity of your choice.',
+    title: 'Full-Stack Marketplace Platform',
+    subtitle: 'TypeScript, React, Node.js, MongoDB, Express',
+    image: '/images/projects/marketplace1.png',
+    date: '2024-01-15',
+    desc: 'Built secure classifieds platform with JWT authentication, bcrypt hashing, and session management for 50+ concurrent users. Implemented RESTful API with Express handling CRUD operations; designed responsive React UI with real-time search.',
   },
   {
-    title: 'Harvest',
-    subtitle: 'Won 3rd. place in 2015 Techcrunch Disrupt SF Hackathon',
-    link: 'https://devpost.com/software/harvest',
+    title: 'Public Safety Data Dashboard',
+    subtitle: 'TypeScript, Leaflet.js, GIS, CSV Processing',
+    link: 'https://opdshooting.netlify.app/',
     image: '/images/projects/harvest.jpg',
-    date: '2015-09-20',
-    desc:
-      'Won ~ $7000 in prizes for an advanced, low cost monitoring solution ' +
-      'for crops. Harvest was designed to catch irrigation leaks, overwatering, ' +
-      'and nutrient deficiencies at an affordable price for the developing world.',
+    date: '2023-11-20',
+    desc: 'Created interactive map visualizing 500+ police incidents using Leaflet.js with dynamic date/location filtering. Deployed live dashboard using Netlify achieving 200+ monthly users; processed public datasets for transparency.',
   },
   {
-    title: 'Space Potato',
-    subtitle: 'A kickstarter funded potato powered weather balloon.',
-    link: 'http://www.spacepotato.org',
+    title: 'Municipal GIS Mapping System',
+    subtitle: 'TypeScript, REST API, Leaflet.js, JSON',
+    link: 'https://orlando.dmchang.xyz/',
     image: '/images/projects/spacepotato.jpg',
-    date: '2015-06-28',
-    desc:
-      'Launched a potato battery powered weather balloon with two cameras ' +
-      'and gps transponder. Resulting photos were published in a coffee table book. ' +
-      'You can email me for a copy.',
+    date: '2023-09-10',
+    desc: 'Developed mapping app integrating city APIs with 1,000+ waterway features; reduced load time 40% via data caching.',
   },
   {
-    title: 'Cat Detector',
-    subtitle: 'A convolutional neural network to classify cats! (and dogs)',
-    image: '/images/projects/catdetector.jpg',
-    date: '2015-05-15',
-    desc:
-      'Trained a convolutional neural network to classify between ~ 80 cats breeds. ' +
-      'Over 60,000 cats were classified before server bills made the project too expensive ' +
-      'to continue hosting.',
+    title: 'Video Streaming Interface',
+    subtitle: 'React, Material UI, RapidAPI, React Router',
+    image: '/images/projects/streaming.png',
+    date: '2023-07-05',
+    desc: 'Built responsive YouTube clone with React Router, real-time search, and adaptive playback for all screen sizes.',
+  },
+  {
+    title: 'Webhook Alert System',
+    subtitle: 'Python, Flask, Twilio API',
+    image: '/images/projects/webook.png',
+    date: '2023-05-15',
+    desc: 'Automated notification system converting JSON webhooks to SMS/calls with 99% delivery rate and multi-recipient support.',
   },
 ];
 

@@ -15,12 +15,12 @@ const SideBar: React.FC = () => {
     <section id="sidebar">
       <section id="intro">
         <Link href="/" className="logo">
-          <Image src="/images/me.jpg" alt="Michael D'Angelo" width={200} height={200} priority />
+          <Image src="/images/me.jpg" alt="Dechante Chang" width={200} height={200} priority />
         </Link>
         <header>
-          <h2>Michael D&apos;Angelo</h2>
+          <h2>Dechante Chang</h2>
           <p>
-            <a href="mailto:michael@mldangelo.com">michael@mldangelo.com</a>
+            <a href="mailto:de411916@ucf.edu">de411916@ucf.edu</a>
           </p>
         </header>
       </section>
@@ -28,12 +28,9 @@ const SideBar: React.FC = () => {
       <section className="blurb">
         <h2>About</h2>
         <p>
-          Hi, I&apos;m Michael. I am a <a href="https://icme.stanford.edu/">Stanford ICME</a>{' '}
-          graduate, YC alumnus, and the co-founder and CTO of{' '}
-          <a href="https://promptfoo.dev">Promptfoo</a>. Previously, I was VP of Engineering at{' '}
-          <a href="https://usesmileid.com">SmileID</a>, co-founder and CTO of{' '}
-          <a href="https://arthena.com">Arthena</a>, and co-founded{' '}
-          <a href="https://matroid.com">Matroid</a>.
+          Hi, I&apos;m Dechante. I am a Computer Science student at the University of Central
+          Florida, expected to graduate in December 2026. I work as a Freelance Developer creating
+          custom websites and trading automation bots for clients.
         </p>
         <ul className="actions">
           <li>
@@ -53,7 +50,7 @@ const SideBar: React.FC = () => {
       <section id="footer">
         <ContactIcons />
         <p className="copyright">
-          &copy; Michael D&apos;Angelo <Link href="/">mldangelo.com</Link>.
+          &copy; Dechante Chang <Link href="/">dmchang.xyz</Link>.
         </p>
       </section>
     </section>

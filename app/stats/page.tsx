@@ -10,7 +10,7 @@ import PageWrapper from '../components/PageWrapper';
 
 export const metadata: Metadata = {
   title: 'Stats',
-  description: "Some statistics about Michael D'Angelo and mldangelo.com",
+  description: 'Some statistics about Dechante Chang and dmchang.xyz',
 };
 
 export default function StatsPage() {

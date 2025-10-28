@@ -5,6 +5,7 @@ import React, { useEffect } from 'react';
 import { usePathname } from 'next/navigation';
 
 import SideBar from '@/components/Template/SideBar';
+import ThemeToggle from '@/components/Template/ThemeToggle';
 
 interface PageWrapperProps {
   children: React.ReactNode;
@@ -21,6 +22,7 @@ export default function PageWrapper({ children, fullPage = false }: PageWrapperP
 
   return (
     <>
+      <ThemeToggle />
       <div id="main">{children}</div>
       {!fullPage && <SideBar />}
     </>
