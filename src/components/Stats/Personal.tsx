@@ -3,6 +3,7 @@
 import React, { useEffect, useState } from 'react';
 
 import data from '../../data/stats/personal';
+import GraduationCountdown from './GraduationCountdown';
 import Table from './Table';
 import { StatData } from './types';
 
@@ -33,6 +34,12 @@ const PersonalStats: React.FC = () => {
       return {
         ...stat,
         value: <Age />,
+      };
+    }
+    if (stat.key === 'graduation') {
+      return {
+        ...stat,
+        value: <GraduationCountdown />,
       };
     }
     return stat;

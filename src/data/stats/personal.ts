@@ -2,9 +2,8 @@ import { StatData } from '../../components/Stats/types';
 
 const data: StatData[] = [
   {
-    key: 'time',
-    label: 'Next calculating time',
-    value: '11:11:11',
+    key: 'graduation',
+    label: 'Time until graduation',
   },
   {
     key: 'countries',

@@ -18,10 +18,11 @@ const work: Position[] = [
     url: 'https://techhelpfl.com',
     startDate: '2021-09-01',
     summary:
-      'Developed custom websites and trading automation bots for 10+ clients using JavaScript, Python, and API integrations. Provided technical support and troubleshooting for small business computers, networks, and software systems.',
+      'Developed custom web applications and automation solutions for 15+ clients using React, Node.js, Python, and REST APIs. Optimized local business visibility through Google Maps SEO strategies, increasing client search rankings by 40%. Provided technical support for 20+ residential clients, troubleshooting networking, smart home devices, and computer systems.',
     highlights: [
-      'Developed custom websites and trading automation bots for 10+ clients using JavaScript, Python, and API integrations',
-      'Provided technical support and troubleshooting for small business computers, networks, and software systems',
+      'Developed custom web applications and automation solutions for 15+ clients using React, Node.js, Python, and REST APIs',
+      'Optimized local business visibility through Google Maps SEO strategies, increasing client search rankings by 40%',
+      'Provided technical support for 20+ residential clients, troubleshooting networking, smart home devices, and computer systems',
     ],
   },
   {

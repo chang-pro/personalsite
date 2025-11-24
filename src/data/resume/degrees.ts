@@ -9,7 +9,7 @@ const degrees: Degree[] = [
   {
     school: 'University of Central Florida',
     degree: 'Bachelor of Science in Computer Science',
-    link: 'https://ucf.edu',
+    link: 'https://www.ucf.edu',
     year: 2026,
   },
 ];

@@ -23,12 +23,14 @@ const data: StatData[] = [
     link: 'https://github.com/chang-pro/personalsite/network/members',
   },
   {
-    label: 'Number of spoons',
-    value: '0',
+    label: 'Public Repositories',
+    value: '25+',
+    link: 'https://github.com/chang-pro?tab=repositories',
   },
   {
-    label: 'Number of linter warnings',
-    value: '0', // enforced via github workflow
+    label: 'Total Commits',
+    value: '1,500+',
+    link: 'https://github.com/chang-pro',
   },
   {
     label: 'Open github issues',
@@ -46,7 +48,7 @@ const data: StatData[] = [
     /* find . | grep ".js" | grep -vE ".min.js|node_modules|.git|.json" |
     xargs -I file cat file | wc -l */
     label: 'Lines of TypeScript powering this website',
-    value: '2150',
+    value: '2250',
     link: 'https://github.com/chang-pro/personalsite/graphs/contributors',
   },
 ];
