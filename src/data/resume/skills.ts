@@ -12,12 +12,12 @@ export interface Category {
 const skills: Skill[] = [
   {
     title: 'JavaScript',
-    competency: 4,
+    competency: 5,
     category: ['Web Development', 'Languages', 'Javascript'],
   },
   {
     title: 'TypeScript',
-    competency: 4,
+    competency: 5,
     category: ['Web Development', 'Languages', 'Javascript'],
   },
   {
@@ -37,27 +37,27 @@ const skills: Skill[] = [
   },
   {
     title: 'HTML5',
-    competency: 4,
+    competency: 5,
     category: ['Web Development', 'Languages'],
   },
   {
     title: 'CSS3',
-    competency: 4,
+    competency: 5,
     category: ['Web Development', 'Languages'],
   },
   {
     title: 'SQL',
-    competency: 3,
+    competency: 4,
     category: ['Web Development', 'Databases', 'Languages'],
   },
   {
     title: 'React.js',
-    competency: 4,
+    competency: 5,
     category: ['Web Development', 'Javascript'],
   },
   {
     title: 'Node.js',
-    competency: 4,
+    competency: 5,
     category: ['Web Development', 'Javascript'],
   },
   {
@@ -67,12 +67,12 @@ const skills: Skill[] = [
   },
   {
     title: 'Flask',
-    competency: 3,
+    competency: 4,
     category: ['Web Development', 'Python'],
   },
   {
     title: 'Material UI',
-    competency: 3,
+    competency: 4,
     category: ['Web Development', 'Javascript'],
   },
   {
@@ -92,17 +92,17 @@ const skills: Skill[] = [
   },
   {
     title: 'MongoDB',
-    competency: 3,
+    competency: 4,
     category: ['Web Development', 'Databases'],
   },
   {
     title: 'MySQL',
-    competency: 3,
+    competency: 4,
     category: ['Web Development', 'Databases'],
   },
   {
     title: 'REST API',
-    competency: 4,
+    competency: 5,
     category: ['Web Development', 'Tools'],
   },
   {
@@ -112,12 +112,12 @@ const skills: Skill[] = [
   },
   {
     title: 'Postman',
-    competency: 3,
+    competency: 4,
     category: ['Tools'],
   },
   {
     title: 'Leaflet.js',
-    competency: 3,
+    competency: 4,
     category: ['Web Development', 'Javascript'],
   },
   {
@@ -127,13 +127,8 @@ const skills: Skill[] = [
   },
   {
     title: 'Netlify',
-    competency: 3,
-    category: ['Tools', 'Web Development'],
-  },
-  {
-    title: 'JSON',
     competency: 4,
-    category: ['Web Development', 'Languages'],
+    category: ['Tools', 'Web Development'],
   },
   {
     title: 'AJAX',

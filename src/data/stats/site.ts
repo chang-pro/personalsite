@@ -10,17 +10,17 @@ const data: StatData[] = [
   {
     label: 'Stars this repository has on github',
     key: 'stargazers_count',
-    link: 'https://github.com/chang-pro/openai-chart-data-analyzer/stargazers',
+    link: 'https://github.com/chang-pro/personalsite/stargazers',
   },
   {
     label: 'Number of people watching this repository',
     key: 'subscribers_count',
-    link: 'https://github.com/chang-pro/openai-chart-data-analyzer/watchers',
+    link: 'https://github.com/chang-pro/personalsite/watchers',
   },
   {
     label: 'Number of forks',
     key: 'forks',
-    link: 'https://github.com/chang-pro/openai-chart-data-analyzer/network/members',
+    link: 'https://github.com/chang-pro/personalsite/network/members',
   },
   {
     label: 'Number of spoons',
@@ -33,12 +33,12 @@ const data: StatData[] = [
   {
     label: 'Open github issues',
     key: 'open_issues_count',
-    link: 'https://github.com/chang-pro/openai-chart-data-analyzer/issues',
+    link: 'https://github.com/chang-pro/personalsite/issues',
   },
   {
     label: 'Last updated at',
     key: 'pushed_at',
-    link: 'https://github.com/chang-pro/openai-chart-data-analyzer/commits',
+    link: 'https://github.com/chang-pro/personalsite/commits',
     format: (x: unknown) => dayjs(x as string).format('MMMM DD, YYYY'),
   },
   {
@@ -47,7 +47,7 @@ const data: StatData[] = [
     xargs -I file cat file | wc -l */
     label: 'Lines of TypeScript powering this website',
     value: '2150',
-    link: 'https://github.com/chang-pro/openai-chart-data-analyzer/graphs/contributors',
+    link: 'https://github.com/chang-pro/personalsite/graphs/contributors',
   },
 ];
 

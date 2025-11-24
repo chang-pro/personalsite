@@ -1,6 +1,6 @@
 export const aboutMarkdown = `# Intro
 
-I am Dechante Chang, a Computer Science student at the University of Central Florida with a passion for building simple and elegant solutions to complex problems. I'm expected to graduate in December 2026 with a Bachelor of Science in Computer Science, maintaining a GPA of 3.0. Born on September 25, 2000, I am 24 years old and currently live in Orlando, Florida, bringing both technical expertise and fresh perspective to software development.
+I am Dechante Chang, a Computer Science student at the University of Central Florida with a passion for building simple and elegant solutions to complex problems. I'm expected to graduate in December 2026 with a Bachelor of Science in Computer Science, maintaining a GPA of 3.0. I currently live in Orlando, Florida, bringing both technical expertise and fresh perspective to software development.
 
 Currently, I work as a Freelance Developer, creating custom websites and trading automation bots for clients using JavaScript, Python, and API integrations. I also have experience as a Technical Support Specialist at Amazon, where I resolved technical issues for AWS-connected devices while maintaining a 95% customer satisfaction rating.
 

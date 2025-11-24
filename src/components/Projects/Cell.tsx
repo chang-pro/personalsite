@@ -27,11 +27,23 @@ const Cell: React.FC<CellProps> = ({ data }) => (
       </header>
       {data.link ? (
         <a href={data.link} target="_blank" rel="noopener noreferrer" className="image">
-          <Image src={data.image} alt={data.title} width={600} height={400} />
+          <Image
+            src={data.image}
+            alt={data.title}
+            width={600}
+            height={400}
+            style={{ objectFit: 'cover' }}
+          />
         </a>
       ) : (
         <div className="image">
-          <Image src={data.image} alt={data.title} width={600} height={400} />
+          <Image
+            src={data.image}
+            alt={data.title}
+            width={600}
+            height={400}
+            style={{ objectFit: 'cover' }}
+          />
         </div>
       )}
       <div className="description">

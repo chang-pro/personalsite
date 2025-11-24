@@ -30,7 +30,8 @@ const SideBar: React.FC = () => {
         <p>
           Hi, I&apos;m Dechante. I am a Computer Science student at the University of Central
           Florida, expected to graduate in December 2026. I work as a Freelance Developer creating
-          custom websites and trading automation bots for clients.
+          custom websites and trading automation bots for clients. I am also the Founder of{' '}
+          <a href="https://www.techhelpfl.com/">Tech Help Florida</a>.
         </p>
         <ul className="actions">
           <li>

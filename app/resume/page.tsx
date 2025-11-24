@@ -42,6 +42,16 @@ export default function ResumePage() {
                 </h4>
               ))}
             </div>
+            <div className="download-link">
+              <a
+                href="https://drive.google.com/file/d/1sFqXpQ1rCmV40zyHyhWsZ1uPz4CRoSdl/view?usp=sharing"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="button"
+              >
+                Download Resume
+              </a>
+            </div>
           </div>
         </header>
 
