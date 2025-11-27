@@ -17,7 +17,7 @@ import PageWrapper from '../components/PageWrapper';
 export const metadata: Metadata = {
   title: 'Resume',
   description:
-    "Dechante Chang's Resume. Computer Science student at UCF, Freelance Developer, and Technical Support Specialist.",
+    "Dechante Chang's Resume. Computer Science student at UCF, TechHelpFL founder, and Technical Support Specialist.",
 };
 
 const sections = [

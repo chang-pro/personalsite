@@ -29,8 +29,9 @@ const SideBar: React.FC = () => {
         <h2>About</h2>
         <p>
           Hi, I&apos;m Dechante. I am a Computer Science student at the University of Central
-          Florida, expected to graduate in December 2026. I work as a Freelance Developer creating
-          custom websites and trading automation bots for clients. I am also the Founder of{' '}
+          Florida, expected to graduate in December 2026. I work as a freelance developer through{' '}
+          <a href="https://www.techhelpfl.com/">Tech Help Florida</a>, creating custom websites and
+          automation bots for clients. I also founded{' '}
           <a href="https://www.techhelpfl.com/">Tech Help Florida</a>.
         </p>
         <ul className="actions">
@@ -52,6 +53,17 @@ const SideBar: React.FC = () => {
         <ContactIcons />
         <p className="copyright">
           &copy; Dechante Chang <Link href="/">dmchang.xyz</Link>.
+        </p>
+        <p style={{ fontSize: '0.8em', color: '#aaa' }}>
+          Inspired by{' '}
+          <a
+            href="https://github.com/mldangelo/personal-site"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            mldangelo&apos;s personal site
+          </a>
+          .
         </p>
       </section>
     </section>

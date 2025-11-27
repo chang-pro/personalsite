@@ -13,16 +13,16 @@ export interface Position {
 
 const work: Position[] = [
   {
-    name: 'Freelance Developer',
-    position: 'Freelance Developer',
+    name: 'TechHelpFL',
+    position: 'TechHelpFL Founder',
     url: 'https://techhelpfl.com',
     startDate: '2021-09-01',
     summary:
-      'Developed custom web applications and automation solutions for 15+ clients using React, Node.js, Python, and REST APIs. Optimized local business visibility through Google Maps SEO strategies, increasing client search rankings by 40%. Provided technical support for 20+ residential clients, troubleshooting networking, smart home devices, and computer systems.',
+      'Founded TechHelpFL and deliver custom web applications and automation solutions for 15+ clients using React, Node.js, Python, and REST APIs. Optimized local business visibility through Google Maps SEO strategies, increasing client search rankings by 40%. Provide technical support for 20+ residential clients, troubleshooting networking, smart home devices, and computer systems.',
     highlights: [
-      'Developed custom web applications and automation solutions for 15+ clients using React, Node.js, Python, and REST APIs',
+      'Founded TechHelpFL to deliver custom web applications and automation solutions for 15+ clients using React, Node.js, Python, and REST APIs',
       'Optimized local business visibility through Google Maps SEO strategies, increasing client search rankings by 40%',
-      'Provided technical support for 20+ residential clients, troubleshooting networking, smart home devices, and computer systems',
+      'Provide technical support for 20+ residential clients, troubleshooting networking, smart home devices, and computer systems',
     ],
   },
   {
