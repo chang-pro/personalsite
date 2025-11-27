@@ -121,18 +121,6 @@ export default function HomePage() {
             </p>
           )}
         </section>
-        <p style={{ fontSize: '0.7em', color: '#999', marginTop: '2rem' }}>
-          <em>
-            Inspired by{' '}
-            <a
-              href="https://github.com/mldangelo/personal-site"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              mldangelo&apos;s personal site
-            </a>
-          </em>
-        </p>
       </article>
     </PageWrapper>
   );
