@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     template: '%s | Dechante Chang',
   },
   description:
-    "Dechante Chang's personal website. Computer Science student, freelance developer, and full-stack engineer.",
+    "Dechante Chang's personal website. Computer Science student, freelance developer, and full-stack engineer specializing in Next.js, AI, and Automation.",
   keywords: [
     'Dechante Chang',
     'computer science',
@@ -38,6 +38,14 @@ export const metadata: Metadata = {
     'engineer',
     'portfolio',
     'UCF',
+    'Next.js',
+    'React',
+    'TypeScript',
+    'Twilio',
+    'Vapi',
+    'AI',
+    'Automation',
+    'WebRTC',
   ],
   authors: [{ name: 'Dechante Chang' }],
   creator: 'Dechante Chang',
@@ -47,8 +55,9 @@ export const metadata: Metadata = {
     locale: 'en_US',
     url: 'https://dmchang.xyz',
     siteName: 'Dechante Chang',
-    title: 'Dechante Chang',
-    description: 'Computer Science student, freelance developer, and full-stack engineer.',
+    title: 'Dechante Chang | Full-Stack Engineer',
+    description:
+      'Computer Science student, freelance developer, and full-stack engineer specializing in Next.js, AI, and Automation.',
     images: [
       {
         url: '/images/me.jpg',
@@ -57,6 +66,13 @@ export const metadata: Metadata = {
         alt: 'Dechante Chang',
       },
     ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Dechante Chang | Full-Stack Engineer',
+    description:
+      'Computer Science student, freelance developer, and full-stack engineer specializing in Next.js, AI, and Automation.',
+    images: ['/images/me.jpg'],
   },
   robots: {
     index: true,
@@ -72,8 +88,27 @@ export const metadata: Metadata = {
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
+  const jsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'Person',
+    name: 'Dechante Chang',
+    url: 'https://dmchang.xyz',
+    jobTitle: 'Full-Stack Engineer',
+    alumniOf: 'University of Central Florida',
+    sameAs: [
+      'https://github.com/chang-pro',
+      'https://linkedin.com/in/dechante-chang',
+      'mailto:de411916@ucf.edu',
+    ],
+  };
+
   return (
-    <html lang="en" className={`${sourceSans.variable} ${raleway.variable}`} data-theme="dark">
+    <html
+      lang="en"
+      className={`${sourceSans.variable} ${raleway.variable}`}
+      data-theme="light"
+      suppressHydrationWarning
+    >
       <head>
         <link rel="icon" type="image/x-icon" href="/images/favicon/favicon.ico" />
         <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png" />
@@ -152,6 +187,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png" />
         <meta name="msapplication-config" content="/images/favicon/browserconfig.xml" />
         <link rel="manifest" href="/images/favicon/manifest.json" />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        />
       </head>
       <body>
         <ThemeProviderWrapper>
