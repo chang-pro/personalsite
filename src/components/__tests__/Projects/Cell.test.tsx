@@ -28,7 +28,7 @@ describe('Cell', () => {
 
   it('renders project date in correct format', () => {
     render(<Cell data={mockProject} />);
-    expect(screen.getByText('January, 2023')).toBeInTheDocument();
+    expect(screen.getByText('January 2023')).toBeInTheDocument();
   });
 
   it('renders project image with alt text', () => {
